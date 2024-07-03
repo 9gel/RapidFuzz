@@ -2,7 +2,8 @@
 requires = [
     "setuptools>=42",
     "scikit-build~=0.17.0",
-    "Cython >=3.0.9, <3.1.0"
+    "Cython >=3.0.9, <3.1.0",
+    "cmake >=3.29.6"
 ]
 build-backend = "backend"
 backend-path = ["_custom_build"]
